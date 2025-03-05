@@ -1,0 +1,333 @@
+/* Smartphone Screens */
+@media only screen and (max-width: 640px) {
+    /* Layout */
+    body {
+        padding-top: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #F5F5F8;
+    }
+
+    #experience, #work, #posts {
+        margin-top: 20%;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+        background-color: #F5F5F8;
+    }
+
+    /* Experience Section */
+    #experience a:hover {
+        font-weight: 900;
+    }
+
+    /* Work Section */
+    #work .card {
+        border: 0.5px solid lightgray;
+        background-color: #F5F5F8;
+        margin-bottom: 10%;
+    }
+
+    #work .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding-bottom: 150px;
+        background-color: white;
+        opacity: 0.3;
+        filter: blur(10px);
+    }
+
+    #work .card-text {
+        position: absolute;
+        top: 20%;
+        width: 90%;
+    }
+
+    #work .card-topics {
+        position: absolute;
+        bottom: 10%;
+    }
+
+    #hero, #vertical-navbar, #e-contact, #contact {
+        display: none;
+    }
+}
+
+/* iPad Screens */
+@media only screen and (min-width: 641px) and (max-width: 991px) {
+    /* Layout */
+    body {
+        padding-top: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #F5F5F8;
+    }
+
+    #experience, #work, #posts {
+        margin-top: 10%;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+        background-color: #F5F5F8;
+    }
+
+    /* Experience Section */
+    #experience a:hover {
+        font-weight: 900;
+    }
+
+    /* Work Section */
+    #work .card {
+        border: 0.5px solid lightgray;
+        background-color: #F5F5F8;
+        margin-bottom: 10%;
+    }
+
+    #work .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.3;
+        filter: blur(10px);
+    }
+
+    #work .card-text {
+        position: absolute;
+        top: 30%;
+        width: 90%;
+    }
+
+    #work .card-topics {
+        display: none;
+    }
+
+    #hero, #vertical-navbar, #e-contact, #contact {
+        display: none;
+    }
+}
+
+/* Smaller Laptop Screens */
+@media only screen and (min-width: 991px) and (max-width: 1280px) {
+    /* Layout */
+    body {
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #F5F5F8;
+    }
+
+    .left-column {
+        position: fixed;
+    }
+    
+    .right-column {
+        position: relative;
+        left: 40%;
+    }
+
+    #experience, #work, #posts {
+        margin-top: 10%;
+    }
+
+    /* Navigation Bar */
+    #vertical-navbar {
+        margin-top: 10%;
+    }
+
+    #vertical-navbar hr {
+        width: 100px;
+        transition: width 1s;
+    }
+
+    #vertical-navbar .nav-link:hover {
+        font-family: "San Francisco Bold";
+
+        hr {
+            border-top: 2px solid #0F0F0F;
+            width: 150px;
+        }
+    }
+
+    /* E-Contact Section */
+    #e-contact a {
+        position: fixed;
+        bottom: 5%;
+    }
+
+    /* Experience Section */
+    #experience a:hover {
+        font-weight: 900;
+    }
+
+    /* Work Section */
+    #work .card {
+        border: 0.5px solid lightgray;
+        background-color: #F5F5F8;
+        position: relative;
+        margin-bottom: 5%;
+    }
+
+    #work .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+        filter: blur(5px);
+    }
+
+    #work .card-img-overlay {
+        width: 95%;
+        padding: 5%;
+    }
+
+    #work .card-title {
+        position: absolute;
+        top: 5%;
+    }
+
+    #work .card-text {
+        position: absolute;
+        top: 25%;
+        width: 80%;
+    }
+
+    #work .card-topics {
+        display: none;
+    }
+
+    /* Posts Section */
+    .post-link:hover .head {
+        text-decoration: underline;
+    }
+
+    .mobile-view {
+        display: none;
+    }
+}
+
+/* Regular Laptops and Television Screens */
+@media only screen and (min-width: 1281px) {
+    .left-column {
+        position: fixed;
+    }
+    
+    .right-column {
+        position: relative;
+        left: 40%;
+    }
+
+    #experience, #work, #posts {
+        margin-top: 10%;
+    }
+
+    /* Navigation Bar */
+    #vertical-navbar {
+        margin-top: 10%;
+    }
+
+    #vertical-navbar hr {
+        width: 80px;
+        transition: width 1s;
+    }
+
+    #vertical-navbar .nav-link:hover {
+        font-family: "San Francisco Bold";
+
+        hr {
+            border-top: 2px solid #0F0F0F;
+            width: 150px;
+        }
+    }
+
+    /* E-Contact Section */
+    #e-contact a {
+        position: fixed;
+        bottom: 5%;
+    }
+
+    /* Experience Section */
+    #experience a:hover {
+        font-weight: 900;
+    }
+
+    /* Work Section */
+    #work .card {
+        border: none;
+        background-color: #F5F5F8;
+        position: relative;
+        margin-bottom: 5%;
+    }
+
+    #work .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #work .card-img-overlay {
+        padding: 5%;
+    }
+
+    #work .card-title {
+        position: absolute;
+        top: 5%;
+    }
+
+    #work .card-text {
+        width: 45%;
+        position: absolute;
+        top: 20%;
+    }
+
+    #work .card-topics {
+        position: absolute;
+        bottom: 5%;
+        width: 50%;
+    }
+
+    /* Posts Section */
+    .post-link:hover .head {
+        text-decoration: underline;
+    }
+
+    .mobile-view {
+        display: none;
+    }
+}
+
+/* Special Cases */
+@media only screen and (min-width: 1281px) and (max-width: 1460px) {
+    body {
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #F5F5F8;
+    }
+}
+
+@media only screen and (min-width: 1461px) {
+    body {
+        padding-top: 5%;
+        padding-left: 12%;
+        padding-right: 12%;
+        background-color: #F5F5F8;
+    }
+}
+
+#contact a:hover, #e-contact a:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+#work .card:hover .tint {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}

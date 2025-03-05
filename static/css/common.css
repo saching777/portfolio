@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "San Francisco Light";
+    src: url(../font/San-Francisco-Light.otf);
+}
+
+@font-face {
+    font-family: "San Francisco Bold";
+    src: url(../font/San-Francisco-Bold.otf);
+}
+
+.bold {
+    font-family: "San Francisco Bold", sans-serif;
+}
+
+.smoke {
+    color: #848884;
+}
+
+body {
+    font-family: "San Francisco Light", sans-serif;
+}
+
+/* Smartphone Screens */
+@media only screen and (max-width: 640px) {
+    .x-large {
+        font-size: 32px;
+    }
+
+    .large {
+        font-size: 22px;
+    }
+
+    .title-font {
+        font-size: 18px;
+    }
+    
+    .medium {
+        font-size: 16px;
+    }
+
+    .regular {
+        font-size: 14px;
+    }
+    
+    .small {
+        font-size: 10px;
+    }
+}
+
+/* iPad Screens */
+@media only screen and (min-width: 641px) and (max-width: 991px) {
+    .x-large {
+        font-size: 34px;
+    }
+
+    .large {
+        font-size: 24px;
+    }
+
+    .title-font {
+        font-size: 20px;
+    }
+    
+    .medium {
+        font-size: 16px;
+    }
+
+    .regular {
+        font-size: 14px;
+    }
+    
+    .small {
+        font-size: 10px;
+    }
+}
+
+/* Smaller Laptop Screens */
+@media only screen and (min-width: 991px) and (max-width: 1280px) {
+    .x-large {
+        font-size: 36px;
+    }
+
+    .large {
+        font-size: 26px;
+    }
+
+    .title-font {
+        font-size: 20px;
+    }
+    
+    .medium {
+        font-size: 18px;
+    }
+
+    .regular {
+        font-size: 16px;
+    }
+    
+    .small {
+        font-size: 12px;
+    }
+}
+
+/* Regular Laptop Screens */
+@media only screen and (min-width: 1281px) and (max-width: 1560px) {
+    .x-large {
+        font-size: 40px;
+    }
+
+    .large {
+        font-size: 30px;
+    }
+
+    .title-font {
+        font-size: 22px;
+    }
+    
+    .medium {
+        font-size: 18px;
+    }
+
+    .regular {
+        font-size: 16px;
+    }
+    
+    .small {
+        font-size: 12px;
+    }
+}
+
+/* Larger Laptops and Television Screens */
+@media only screen and (min-width: 1561px) {
+    .x-large {
+        font-size: 45px;
+    }
+
+    .large {
+        font-size: 35px;
+    }
+
+    .title-font {
+        font-size: 26px;
+    }
+    
+    .medium {
+        font-size: 20px;
+    }
+
+    .regular {
+        font-size: 18px;
+    }
+    
+    .small {
+        font-size: 14px;
+    }
+}
